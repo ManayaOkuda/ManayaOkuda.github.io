@@ -1,0 +1,227 @@
+@charset "UTF-8";
+html{
+    font-family:sans-serif;
+    line-height: 2rem;
+}
+h2{
+    margin: 1rem 0 1.5em;
+    padding: 0.8em;
+    border-top: 3px double #B92A2C;
+    border-bottom: 3px double #B92A2C;
+    font-size: 1.143em;
+    font-weight: bold;
+}
+
+#gnav{
+    background-color: rgb(255, 255, 255);
+    border-top: 3px double #B92A2C;
+    border-bottom: 3px double #B92A2C;
+}
+.inner{
+    display: flex;
+    list-style: none;
+}
+#gnav li{
+    width: 200px;
+}
+
+#master{
+    background-image: url(./resource/A907A7FC-CE74-491D-BDE6-99FB739F30D5_4_5005_c.jpeg);
+    color: rgb(255, 255, 255);
+}
+
+table,th,td{
+    border:1px solid black;
+    border-radius: 5px;
+}
+
+a[href]{
+    color:#B92A2C;
+    text-decoration:none;
+}
+
+a:hover{
+    color: black
+}
+
+a:visited{
+    color:blue
+}
+
+tr:nth-child(even){
+    background-color:#ed8c8c;
+}
+
+tr:nth-child(odd){
+    background-color: #f1e5e5;
+}
+
+.container{
+   display: flex; 
+   flex-flow: row;
+}
+
+#main{
+    background-color: rgb(255, 236, 211);
+}
+
+#sub{
+    background-color:azure ;
+}
+
+
+.frame {
+    width: 80%;
+    margin: 30px 0px 30px;
+    padding: 30px 20px 0;
+    border: 3px double #aaa;
+    position: relative;
+    border-radius: 3px;
+    background-color: #fff;
+   }
+   .frame-title {
+    position: absolute;
+    top: -13px;
+    left: 20px;
+    padding: 0 5px;
+    background-color: #fff;
+   }
+   .frame-title .fa {
+    margin-right: 5px;
+   }
+   .caution {
+    background-color:#B92A2C ;
+    border: 2px solid #B92A2C;
+    color: #fff;
+    border-radius: 3px;
+   }
+   .frame-red {
+    border-color: #B92A2C;
+   }
+
+   .form{
+    margin: 0 0 1.5em;
+    padding: 0.8em;
+    border: 3px double #B92A2C;
+    font-weight: bold;
+   }
+
+   .circle {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    border-radius: 50px;
+    background-image: url(./resource/A907A7FC-CE74-491D-BDE6-99FB739F30D5_4_5005_c.jpeg);
+    animation: fuwafuwa 2s infinite;
+ }
+ 
+ @keyframes fuwafuwa {
+   0% {
+     transform: translateY(0px);
+   }
+   50% {
+     transform: translateY(-30px);
+   }
+   100% {
+     transform: translateY(0px);
+   }
+ }
+
+ .p_sen{
+    padding-top: 200px;
+    padding-left: 25px;
+    color: #B92A2C;
+ }
+
+.balloon1-left {
+  position: relative;
+  display: block;
+  margin: 1.5em 0em 1.5em 15px;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #e0edff;
+}
+
+.balloon1-left:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #e0edff;
+}
+
+.balloon1-left p {
+  margin: 0;
+  padding: 0;
+}
+
+.balloon1-right {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 15px 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: #e0edff;
+  }
+  
+  .balloon1-right:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-left: 15px solid #e0edff;
+  }
+  
+  .balloon1-right p {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .balloon1-right-sen {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 15px 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #B92A2C;
+    font-size: 16px;
+    background: #e0edff;
+  }
+  
+  .balloon1-right-sen:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-left: 15px solid #e0edff;
+  }
+  
+  .balloon1-right-sen p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .outline {
+    text-align:center;
+  }
+  .roulette {
+    display: inline-block;
+    border:1px solid #000000;
+  
+    width:120px;
+  }
+  
