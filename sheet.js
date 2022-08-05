@@ -8,8 +8,8 @@ var roulette;
 var final_number;
 
 function RNgenerator(){
-    //1-5までの数を、切り捨てることで作成する
-    random_number=Math.floor(Math.random()*5)+1;
+    //1-6までの数を、切り捨てることで作成する
+    random_number=Math.floor(Math.random()*6)+1;
     document.getElementById("sen_roulette").innerHTML=random_number;
 }
 
